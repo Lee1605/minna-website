@@ -1,0 +1,595 @@
+@font-face {
+    font-family: 'moon-time';
+    src: url(../fonts/MoonTime-Regular.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'linux-biolinum';
+    src: url(../fonts/linux-biolinum.regular.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    background-color: #e3f1f1;
+    margin: 0;
+    font-family:linux-biolinum ;
+}
+
+div#desktop {
+    max-width: 1366px;
+    height: 150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+ul.events {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    text-align: start;
+    list-style-type: none;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    background-color:#e3f1f1;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    
+}
+
+div#mobile {
+    display: none;
+}
+
+nav#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65vw;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+a.current-page {
+    color: #DBCFBE ;
+}
+
+img.logo {
+    margin-left: 6vw;
+}
+
+div#hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vw;
+}
+
+div.img-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1366px;
+    margin: 150px auto 200px auto;
+}
+
+img.about-img {
+    border-radius: 45%;
+    width: 34%;
+    height: 600px;
+}
+
+div.textbtn {
+    width: 40%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p.text {
+    font-family: linux-biolinum;
+    font-weight: 200;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-top: 0;
+}
+
+button.readmore {
+    background-color: #DBCFBE;
+    width: 200px;
+    height: 65px;
+    font-size: 1.3rem;
+    font-family: linux-biolinum;
+    border: 1px solid #707070;
+}
+
+button.readmore:hover, .fab:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+div#sentence {
+    background-image: url('../images/minna-middle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    text-align: center;
+    position: relative;
+}
+
+div.shecan {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 15vh;
+    right: 11vw;
+    font-family: moon-time;
+}
+
+p.she {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h1.title {
+    text-align: center;
+    font-family: moon-time;
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+div#retreats {
+    margin-top: 80px;
+}
+
+div#testimonials {
+    max-width: 1366px;
+    border: none;
+    margin: 0 auto;
+}
+
+.swiper {
+    max-width: 1366px;
+}
+
+.swiper-button-prev {
+    left: 50px;
+    color: black;
+}
+
+.swiper-button-next {
+    right: 50px;
+    color: black;
+}
+
+div.testimonial {
+    width: 80%;
+    height: 350px;
+    background-color: #DBCFBE;
+    margin: 0 auto;
+    border-radius: 150px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+div.testi-wrap {
+    padding-top: calc(175px - 130px);
+}
+
+p.testi-text {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section#contact {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+div.contact-wrap {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+fieldset, input, textarea {
+    display: block;
+    margin: 12px 0;
+    padding: 0;
+    border: 0;
+}
+
+input {
+    height: 35px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+.name-field {
+    width: 40%;
+}
+
+.name-input {
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+}
+
+.send {
+    margin: 20px auto;
+}
+
+span {
+    font-family: linux-biolinum;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+section#insta {
+    margin-bottom: 100px;
+}
+
+div.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+img.insta {
+    height: 38vw;
+    margin: 0 5px;
+    flex-grow: 0;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+div.background {
+    background-image: url('../images/minna-footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+}
+
+div.icons, h5.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    width: 10%;
+    font-size: 1.6rem;
+    height: 150px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h5.author {
+    width: 25%;
+    height: auto;
+}
+
+div.retreat {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+p.retreat-content {
+    width: 50vw;
+}
+
+.retreat-img {
+    width: 55vh;
+}
+
+.about-page-img {
+    width: 100%;
+}
+
+div.about-container {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+div.payments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 150px auto 0 auto;
+    text-align: center;
+}
+
+div.payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 300px;
+}
+
+div.payment-container:hover {
+    margin-top: -7px;
+    transition: all 0.1s ease-in;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    p.text {
+        font-size: 2vw;
+    }
+
+    p.testi-text {
+        font-size: 1.8vw;
+    }
+
+    div.shecan {
+        font-size: 4vw;
+        right: 3vw;
+    }
+
+    div.img-text {
+        justify-content: space-evenly;
+    }
+
+    img.about-img {
+        height: 45vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    header {
+        position: relative;
+    }
+
+    div#desktop {
+        display: none;
+    }
+
+    div#mobile {
+        display: initial;
+    }
+
+    div#burger {
+        margin: 20px 20px 0 0;
+    }
+
+    div.nav-bar {
+        width: 35px;
+        height: 3px;
+        background-color: black;
+        margin: 7px 0;
+    }
+
+    div#container-nav {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
+    }
+
+    nav#nav-bar-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70vh;
+        width: 0;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #e3f1f1;
+    }
+
+    .nav-link {
+        margin-left: 10px;
+    }
+
+    i#close {
+        align-self: flex-end;
+        margin-right: 20px;
+        font-size: 2.3rem;
+    }
+
+    div#hero {
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+        background-position: right;
+    }
+
+    div.img-text {
+        flex-direction: column;
+        width: 90vw;
+        margin: 70px auto;
+    }
+
+    img.about-img {
+        width: 80vw;
+        height: 55vh;
+        margin: 0 auto;
+    }
+
+    div.textbtn {
+        width: 100%;
+    }
+
+    p.text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    div#sentence {
+        height: 50vh;
+    }
+
+    div.shecan {
+        font-size: 2rem;
+        letter-spacing: 5px;
+        width: 100px;
+        left: 11vw;
+        top: 2vh;
+    }
+
+    h1.title{
+        margin: 60px 0;
+    }
+
+    div#retreats {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    div.testimonial {
+        width: 90%;
+        height: 124vw;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
+    
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    p.testi-text {
+        line-height: 6vw;
+        font-size: 5vw;
+    }
+
+    div.background {
+        width: 100vw;
+        height: 40vh;
+        background-position: center;
+    }
+
+    div.icons {
+        width: 30%;
+        height: 100px;
+    }
+
+    h5.author {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    span#contain {
+        cursor: pointer;
+    }
+
+    div.retreat {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    p.retreat-content {
+        width: 85vw;
+    }
+
+    img.retreat-img {
+        width: 45vh;
+    }
+
+    div.payments {
+        flex-direction: column;
+        margin-top: 80px;
+        max-width: 300px;
+    }
+
+    div.payment-container {
+        margin: 0 auto;
+    }
+
+    div.payment {
+        margin-bottom: 40px;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    img.about-img {
+        width: 43vw;
+        height: 40vh;
+    }
+
+    div.testimonial {
+        height: 80vw;
+    }
+
+    p.testi-text {
+        font-size: 1.8rem;
+    }
+
+    nav#nav-bar-mobile {
+        height: 57vh;
+    }
+
+}
+
+@media only screen and (min-width: 1660px) {
+    div.shecan {
+        right: 20vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+.events-link:hover .events {
+    height: 3rem;
+    overflow: auto;
+}
+
+.events-link {
+    align-self: flex-start;
+    margin-top: calc(75px - 10px);
+}
+
+a.nav-link:hover, span:hover {
+    color: #DBCFBE;
+}
+
+}
+
+

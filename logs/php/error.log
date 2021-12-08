@@ -1,0 +1,91 @@
+[17-Nov-2021 11:06:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-home.php on line 116
+[18-Nov-2021 11:02:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php on line 175
+[18-Nov-2021 11:02:18 UTC] PHP Stack trace:
+[18-Nov-2021 11:02:18 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:0
+[18-Nov-2021 11:02:18 UTC] PHP   2. do_action_ref_array() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:138
+[18-Nov-2021 11:02:18 UTC] PHP   3. WP_Hook->do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/plugin.php:518
+[18-Nov-2021 11:02:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:327
+[18-Nov-2021 11:02:18 UTC] PHP   5. wp_version_check() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:303
+[18-Nov-2021 11:02:18 UTC] PHP   6. trigger_error() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:175
+[19-Nov-2021 09:44:52 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-home.php on line 65
+[19-Nov-2021 09:44:52 UTC] PHP Stack trace:
+[19-Nov-2021 09:44:52 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php:0
+[19-Nov-2021 09:44:52 UTC] PHP   2. require() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php:17
+[19-Nov-2021 09:44:52 UTC] PHP   3. require_once() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-blog-header.php:19
+[19-Nov-2021 09:44:52 UTC] PHP   4. include() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template-loader.php:106
+[19-Nov-2021 09:46:51 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-home.php on line 65
+[19-Nov-2021 09:46:51 UTC] PHP Stack trace:
+[19-Nov-2021 09:46:51 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php:0
+[19-Nov-2021 09:46:51 UTC] PHP   2. require() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php:17
+[19-Nov-2021 09:46:51 UTC] PHP   3. require_once() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-blog-header.php:19
+[19-Nov-2021 09:46:51 UTC] PHP   4. include() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template-loader.php:106
+[19-Nov-2021 10:00:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-home.php on line 11
+[19-Nov-2021 10:14:42 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-home.php on line 87
+[26-Nov-2021 13:32:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php on line 175
+[26-Nov-2021 13:32:41 UTC] PHP Stack trace:
+[26-Nov-2021 13:32:41 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:0
+[26-Nov-2021 13:32:41 UTC] PHP   2. do_action_ref_array() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:138
+[26-Nov-2021 13:32:41 UTC] PHP   3. WP_Hook->do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/plugin.php:518
+[26-Nov-2021 13:32:41 UTC] PHP   4. WP_Hook->apply_filters() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:327
+[26-Nov-2021 13:32:41 UTC] PHP   5. wp_version_check() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:303
+[26-Nov-2021 13:32:41 UTC] PHP   6. trigger_error() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:175
+[26-Nov-2021 13:33:02 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php on line 413
+[26-Nov-2021 13:33:02 UTC] PHP Stack trace:
+[26-Nov-2021 13:33:02 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:0
+[26-Nov-2021 13:33:02 UTC] PHP   2. do_action_ref_array() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:138
+[26-Nov-2021 13:33:02 UTC] PHP   3. WP_Hook->do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/plugin.php:518
+[26-Nov-2021 13:33:02 UTC] PHP   4. WP_Hook->apply_filters() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:327
+[26-Nov-2021 13:33:02 UTC] PHP   5. wp_update_plugins() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:303
+[26-Nov-2021 13:33:02 UTC] PHP   6. trigger_error() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:413
+[26-Nov-2021 13:33:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php on line 693
+[26-Nov-2021 13:33:21 UTC] PHP Stack trace:
+[26-Nov-2021 13:33:21 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:0
+[26-Nov-2021 13:33:21 UTC] PHP   2. do_action_ref_array() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:138
+[26-Nov-2021 13:33:21 UTC] PHP   3. WP_Hook->do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/plugin.php:518
+[26-Nov-2021 13:33:21 UTC] PHP   4. WP_Hook->apply_filters() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:327
+[26-Nov-2021 13:33:21 UTC] PHP   5. wp_update_themes() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:303
+[26-Nov-2021 13:33:21 UTC] PHP   6. trigger_error() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:693
+[27-Nov-2021 13:19:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/header.php on line 35
+[27-Nov-2021 16:29:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/header.php:36
+Stack trace:
+#0 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template.php(716): load_template('/Users/lidyamel...', true, Array)
+#2 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-home.php(1): get_header()
+#4 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template-loader.php(106): include('/Users/lidyamel...')
+#5 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-blog-header.php(19): require_once('/Users/lidyamel...')
+#6 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php(17): require('/Use in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/header.php on line 36
+[27-Nov-2021 16:32:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_data() in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/header.php:37
+Stack trace:
+#0 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template.php(716): load_template('/Users/lidyamel...', true, Array)
+#2 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/page-about.php(1): get_header()
+#4 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template-loader.php(106): include('/Users/lidyamel...')
+#5 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-blog-header.php(19): require_once('/Users/lidyamel...')
+#6 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php(17): require('/Us in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/header.php on line 37
+[29-Nov-2021 23:26:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php on line 693
+[29-Nov-2021 23:26:52 UTC] PHP Stack trace:
+[29-Nov-2021 23:26:52 UTC] PHP   1. {main}() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:0
+[29-Nov-2021 23:26:52 UTC] PHP   2. do_action_ref_array() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-cron.php:138
+[29-Nov-2021 23:26:52 UTC] PHP   3. WP_Hook->do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/plugin.php:518
+[29-Nov-2021 23:26:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:327
+[29-Nov-2021 23:26:52 UTC] PHP   5. wp_version_check() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:303
+[29-Nov-2021 23:26:52 UTC] PHP   6. do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:256
+[29-Nov-2021 23:26:52 UTC] PHP   7. WP_Hook->do_action() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/plugin.php:470
+[29-Nov-2021 23:26:52 UTC] PHP   8. WP_Hook->apply_filters() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:327
+[29-Nov-2021 23:26:52 UTC] PHP   9. wp_maybe_auto_update() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/class-wp-hook.php:303
+[29-Nov-2021 23:26:52 UTC] PHP  10. WP_Automatic_Updater->run() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:729
+[29-Nov-2021 23:26:52 UTC] PHP  11. wp_update_themes() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-admin/includes/class-wp-automatic-updater.php:475
+[29-Nov-2021 23:26:52 UTC] PHP  12. trigger_error() /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/update.php:693
+[03-Dec-2021 10:31:40 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[03-Dec-2021 10:31:40 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[03-Dec-2021 10:31:40 UTC] PHP Fatal error:  Unknown: Failed opening required '/private/var/folders/qf/5c7slphn77726sqdrqxc7tr80000gn/T/AppTranslocation/943CA1ED-F83E-4A7D-A6C4-C0D9AF252950/d/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[03-Dec-2021 10:31:40 UTC] PHP Fatal error:  Unknown: Failed opening required '/private/var/folders/qf/5c7slphn77726sqdrqxc7tr80000gn/T/AppTranslocation/943CA1ED-F83E-4A7D-A6C4-C0D9AF252950/d/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[03-Dec-2021 11:30:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/single-events.php:16
+Stack trace:
+#0 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-blog-header.php(19): require_once('/Users/lidyamel...')
+#2 /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/index.php(17): require('/Users/lidyamel...')
+#3 {main}
+  thrown in /Users/lidyameloul/Local Sites/mindfulbyminna/app/public/wp-content/themes/mindfulbyminna/single-events.php on line 16
